@@ -66,7 +66,7 @@
 
 [IM各服务启动顺序 53](#_Toc2723)
 
-[二、部署方式二（通过](#_Toc2024)docker部署） 56
+[二、部署方式二（通过](#_Toc2024)docker部署扣扣149145308+tg:adoorvip+群524992751） 56
 
 [1. 安装docker（以centos7.X 为例） 56](#_Toc17666)
 
@@ -834,7 +834,7 @@ mkdir video
 **首先安装**  **nginx**  **所需的依赖**
 
 [root@shiku~]# yum install -y pcre pcre-devel zlib zlib-devel openssl openssl-devel
-
+扣扣149145308+tg:adoorvip+群524992751
 **安装**  **Nginx-1.9.11**
 
 [root@shiku~]# cd /opt
@@ -1476,7 +1476,7 @@ proxy\_pass http://127.0.0.1:8095; #imapi端口
 
 1.
 ## Windows 系统下安装IM 相关服务
-
+扣扣149145308+
 ### 1、安装MongoDB
 
 下载Windowns版MongoDB [https://fastdl.mongodb.org/win32/mongodb-win32-x86\_64-3.0.7.zip](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.0.7.zip)
@@ -1895,7 +1895,7 @@ docker build -t imapi -f imapi\_dockerfile ./
 **3**** 、通过镜像启动容器**
 
 docker run -d -p 8092:8092 -e "UPLOAD\_ADDR=192.168.0.152:8088" -e "MONGODB\_ADDR=192.168.0.151:28018" -e "NAMESRV\_ADDR=192.168.0.155:9876" -e "XMPP\_HOST=192.168.0.155" -e "XMPP\_SERVERNAME=im.shiku.co" -e "REDIS\_ADDR=redis://192.168.0.155:6388" --name imapi-server imapi
-
+扣扣149145308+tg:adoorvip+群524992751
 1.
 ## Docker 创建IMServer容器
 
@@ -3008,7 +3008,7 @@ free -h
 如果剩余内存不足了,可以清理下缓存. 或适当的调整服务器内存大小
 
 清理缓存
-
+tg:adoorvip+群524992751
 echo 1 \> /proc/sys/vm/drop\_caches
 
 echo 2 \> /proc/sys/vm/drop\_caches
@@ -3389,7 +3389,7 @@ IMServer 通讯服务
 出现上述内容 目录下的 log.log 也没有异常 即启动成功
 
 #### 3.message-push
-
++群524992751
 message-push 控制消息消费推送服务 关于配置文件修改的具体步骤请参看本文档的项目部署部分。
 
 修改配置后运行
